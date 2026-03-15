@@ -1,0 +1,17 @@
+
+AeroSpeak Terminal is a Python-based application that translates text inputs into the NATO Phonetic Alphabet and provides real-time audio playback. Designed for enthusiasts and aviation communication practice.
+
+## Features
+- **Real-time Conversion:** Instantly translates your input into standard aviation phonetic codes.
+- **Audio Synthesis:** Uses Google Text-to-Speech (gTTS) to read the codes aloud.
+- **Reference Table:** Always-visible phonetic reference chart for quick access.
+
+## Installation
+1. Install dependencies:
+   ```bash
+   pip3 install gTTS
+
+Install system audio driver (Sox):
+
+Bash
+sudo dnf install sox
